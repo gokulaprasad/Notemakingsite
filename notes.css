@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap');
+
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+.container
+{
+    
+    min-height: 100vh;
+    background: linear-gradient(135deg,#cf9aff,#95ceff);
+    color: white;
+    padding: 4% 10%;
+    
+}
+.container h1 
+{
+    display: flex;
+    align-items: center;
+    font-weight: 600 ;
+    
+}
+.container h1 img
+{
+    width: 60px;
+}
+
+.container button img
+{
+    width: 25px;
+    margin-right: 8px;
+}
+
+.container button
+{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(#9418fd, #571094);
+    width:23vh;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 15px 25px 15px 25px;
+    margin: 30px 0 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+.notes-container p
+{
+    position: relative;
+    max-width: 500px;
+    width: 100% ;
+    min-height: 150px;
+    background-color: white;
+    color: #333 ;
+    padding: 10px 0 0 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px ;
+    border: none;
+}
+.notes-container img 
+{
+    position: absolute;
+    width: 20 px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    margin: 0 15px 10px 0;
+    cursor: pointer;
+}
